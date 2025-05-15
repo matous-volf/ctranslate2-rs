@@ -32,7 +32,7 @@ description = "Rust bindings for OpenNMT/CTranslate2"
 [dependencies]
 anyhow = "1.0.98"
 cxx = { version = "1.0.157", features = ["c++17"] }
-sentencepiece = { git = "https://github.com/danieldk/sentencepiece", branch = "sentencepiece-0.2.0" }
+sentencepiece = { git = "https://github.com/matous-volf/sentencepiece-rs" }
 tokenizers = "0.21.1"
 
 # Dependencies for Whisper model
